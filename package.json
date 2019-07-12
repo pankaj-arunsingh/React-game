@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,7 @@
     "react-dom": "^16.0.1",
     "socket.io": "^2.0.2",
     "winston": "^2.1.1",
-    "snyk": "^1.94.0"
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "babel-plugin-transform-react-jsx": "^6.5.2",
